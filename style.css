@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css?family=Ramabhadra&display=swap');
+
+body {
+	margin: 0;
+	z-index: 5;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.back_to_search {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+.back_to_search a {
+	color: #bc1a27;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.back_to_search img {
+	width: 30px;
+	height: 30px;
+}
+
+
+.header {
+	width: 100%;
+	height: 110px;
+	background-color: rgba(255, 255, 255);
+	position: fixed;
+	margin-top: 0;
+	z-index: 8;
+}
+
+.header_logo {
+	margin: 5px 0 0 5px;
+	width: 40%;
+	height: 100px;
+	float: left;
+}
+
+.header_logo1 {
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+.header_logo1 img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.header_logo2 img{
+	width: 390px;
+	height: 100px;
+}
+
+.language {
+	height: 50px;
+	position: absolute;
+	right: 185px;
+	top: 40px;
+	font-weight: bold;
+}
+
+.language span:hover{
+	color: #9fa1a5;
+	cursor: pointer;
+}
+
+.menu_bar {
+	height: 50px;
+	position: absolute;
+	right: 180px;
+	top: 60px;
+}
+
+.menu_bar ul {
+	list-style: none;
+}
+
+.menu_bar li {
+	float: left;
+}
+
+.menu_bar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	padding-right: 5px;
+}
+
+.menu_bar a:hover {
+	color: #9fa1a5;
+}
+
+.enquiry {
+	width: 160px;
+	height: 110px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #bc1a27;
+} 
+
+.enquiry:hover {
+	opacity: 0.5;
+}
+
+.enquiry img{
+	width: 115px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.enquiry a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-bottom: 15px
+}
+
+/*---------------------*/
+
+.quick {
+	width: 100%;
+	height: 550px;
+	background-image: url(img/nightview2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.quick_search {
+	width: 30%;
+	height: 380px;
+	margin-left: 50px;
+	background-color: #bc1a27; /*濃い赤*/
+	padding-top: 120px;
+}
+
+.search1 img {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+.search1 span {
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	left: 10px;
+}
+
+.search2 {
+	height: 50px;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.search2 input[type="radio"] {
+  display: none; 
+  margin: 0 -3px;
+}
+
+.search2 label {
+  display: inline-block;
+  color: #515254;
+  background-color: #aeb0b2;
+  padding: 10px 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.search2 input[type="radio"]:hover + label { 
+  cursor: pointer;
+}
+
+.search2 input[type="radio"]:checked + label { 
+  background-color: white;
+  color: black;
+}
+
+.search3{
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.search3 a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 6px 12px;
+	border: 1px solid white;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.search3 a:hover{
+	color: white;
+	background-color: #bc1a27;
+	border: 1px solid white;
+}
+
+.search3 input[type="text"] {
+	margin: 0 0 0 0px;
+	height: 28px;
+	width: 10.7em;
+ 	border: none;
+ 	border-bottom: 1px solid #d1d5db;
+	background-color: #bc1a27;
+	color: white;
+	font-size: 18px;
+
+}
+
+.search4 {
+	margin-left: 30px;
+	height: 50px;
+}
+
+.search4 input {
+	padding-left: 10px;
+}
+
+.search4 select{
+	width: 323px;
+	height: 40px;
+	margin-top: 5px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+}
+
+.search5 {
+	height: 50px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.search5 a {
+	color: white;
+	font-weight: bold;
+}
+
+.search6 {
+	height: 50px;
+	margin-left: 30px;
+}
+
+.search6 a {
+	width: 600px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: #4e4e4f;
+	padding: 10px 132px;
+	border: 1px solid black;
+	border-radius: 8px;
+	box-shadow: 0px 2px #323233;
+}
+
+.search6 a:hover{
+	background-color: #909393;
+	box-shadow: none;
+}
+
+.search6:hover{
+	transform: translate3d(0, 3px, 0)
+}
+
+/*---------------------*/
+
+.quick_text {
+	width: 50%;
+	height: 500px;
+/*	background-color: pink;*/
+	position: absolute;
+	right: 100px;
+	top: 0;
+	text-align: center;
+	color: white;
+}
+
+.quick_text h1{
+	margin-top: 300px;
+}
+
+.quick_news {
+	width: 100%;
+	height: 37px;
+	padding: 10px 0px;
+	background-color: #efedea; /*薄い灰色*/
+}
+
+.quick_news table {
+	width: 100%;
+	margin: 0px 60px;
+	border-collapse: collapse;
+	/*background-color: pink;*/
+	font-size: 14px;
+}
+
+.quick_news a{
+	text-decoration: none;
+	color: #484949;
+}
+
+.quick_text_seemore a {
+	text-decoration: underline;
+	color: #0c2b54;
+}
+
+#ymd {
+	text-align: center;
+}
+
+.quick_news th {
+	color: white;
+	background-color: #484949;
+	padding: 8px 2px;
+	margin: 3px 3px;
+}
+
+.quick_news td {
+	padding: 8px 5px;
+	margin: 3px 3px;
+}
+
+
+/*----------コンテンツタイトル等幅広く適用-----------*/
+.subcon {
+	padding: 30px 15px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+.title {
+	width: 100%;
+	height: 100px;
+}
+
+.title1 {
+	text-align: center;
+	color: #bc1a27;
+/*	padding: 0.5em 0;/*上下の余白*/
+/*	border-bottom: solid 1px #c1beba;*//*真ん中の灰色下線*/
+}
+
+.title5 {
+	text-align: center;
+}
+
+/*seedetailボタンのHTML
+<div class="seedetail">
+<a href="#home">See detail</a>
+</div>
+seedetailボタンのCSS
+.seedetail a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 10px 15px;
+	border: 1px solid #6b6e72;
+	border-radius: 8px;
+}
+
+.seedetail a:hover{
+	color: white;
+	background-color: #bc1a27;
+	border: 1px solid white;
+}*/
+
+/*----------コンテンツタイトル等幅広く適用・終-----------*/
+.feature {
+	width: 100%;
+	height: 450px;
+	/*background-color: pink;*/
+}
+
+.c_f {
+	width: 100%;
+	height: 270px;
+	margin-left: 100px;
+}
+
+.f_c {
+	float: left;
+	width: 230px;
+	height: 298px;
+	margin: 20px 10px 0;
+	text-align: center;
+	background-color: #efedea; 
+}
+
+.f_c img {
+	width: 230px;
+	height: 180px;
+}
+
+.f_c p {
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.seedetail a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	padding: 10px 15px;
+	border: 1px solid #6b6e72;
+	border-radius: 8px;
+	box-shadow: 0px 2px #323233;
+}
+
+.seedetail a:hover{
+	color: white;
+	background-color: #bc1a27;
+	border: none;
+	box-shadow: none;
+}
+
+.seedetail:hover{
+	transform: translate3d(0, 2px, 0)
+}
+
+.case {
+	width: 100%;
+	height: 500px;
+/*	background-color: pink;*/
+}
+
+/*.title {
+	width: 100%;
+	height: 100px;
+}タイトル部分、みんな適用してるから後で消す*/
+
+.t_cs {
+	margin-bottom: 40px;
+}
+
+.c_cs {
+	width: 100%;
+	height: 400px;
+	margin-left: 150px;
+}
+
+.cs_c {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+}
+
+.cs_c_img {
+	width: 280px;
+	height:180px;
+	float: left;
+}
+
+.cs_c_img img {
+	width: 280px;
+	height: 180px;
+}
+
+.cs_c_text {
+	width: 50%;
+	height: 175px;
+	margin-left: 280px;
+	padding: 3px 10px;
+	background-color: #efedea;
+}
+
+.cs_c_text_head {
+	margin-top: -10px;	
+}
+
+.cs_c_text_head h3{
+	color: #0c2b54;/*リアルプランブルー*/
+}
+
+.cs_c_text_head p{
+	color: #c1beba;/*真ん中の灰色*/
+	font-size: 16px;
+	margin-top: -10px;
+}
+
+.cs_c_text_c p{
+	color: #606163;/*もっと濃い灰色*/
+	font-size: 12px;
+	font-weight: bold;
+}
+/*---------------------*/
+.high {
+	width: 100%;
+	height: 500px;
+	/*background-color: pink;*/
+}
+
+.t-high {
+	margin-top: 50px;
+}
+
+.c_high {
+	width: 100%;
+	height: 220px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.high_c {
+	float: left;
+	width: 500px;
+	height: 220px;
+	margin-right: 20px;
+}
+
+.high_c_img {
+	float: left;
+	width: 300px;
+	height: 220px;
+}
+
+.high_c_img img {
+	width: 300px;
+	height: 220px;
+}
+
+.high_c_c {
+	margin-left: 300px;
+	background-color: #f6f6f6;
+	width: 200px;
+	height: 220px;
+	text-align: center;
+}
+
+.high_c_c img {
+	width: 100px;
+	height: 100px;
+}
+
+.high_c_c h4{
+	margin-top: -10px;
+}
+/*---------------------*/
+
+.contact {
+	width: 100%;
+	height: 900px;
+	/*background-color: pink;*/
+}
+
+.c-contact {
+	margin-top: 40px;
+	width: 100%;
+	height: 600px;
+}
+
+.contact_subtitle {
+	width: 100%;
+	height: 60px;
+	/*background-color: gray;*/
+}
+
+.contact_subtitle h3 {
+	float: left;
+	text-transform: uppercase;
+}
+
+.contact_subtitle h5 {
+	color: #bc1a27;
+	position: relative;
+	left: 50px;
+	top: 24px;
+}
+
+.contact_input {
+	width: 100%;
+}
+
+.contact_input input[type=text]{
+	width: 375px;
+	height: 28px;
+	margin-top: 5px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+.contact_input input[type=phone]{
+	width: 307px;
+	height: 28px;
+	margin-top: 5px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+
+.contact_input input[type=email]{
+	width: 308px;
+	height: 28px;
+	margin-top: 5px;
+	margin-left: 10px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+.contact_input select{
+	width: 388px;
+	height: 32px;
+	margin-top: 5px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+}
+
+.contact_input table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.contact_input tr {
+	border-top: 1px solid #c9c7c5;
+	border-bottom: 1px solid #c9c7c5;
+	width: 100%;
+	text-align: left;
+}
+
+.contact_input th {
+	background-color: #efedea; /*薄い灰色*/
+	width: 15%;
+	padding: 42px 30px;
+}
+
+.contact_input td {
+	background-color: white;
+	width: 35%;
+	padding-left: 20px;
+}
+
+.checkbox01-input{
+  display: none;
+}
+
+.checkbox01-parts{
+  padding-left: 20px;
+  position:relative;
+  margin-right: 20px;
+}
+
+.checkbox01-parts::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+
+.checkbox01-parts:hover {
+  cursor: pointer;
+}
+
+.checkbox01-input:checked + .checkbox01-parts{
+  color: black;
+}
+
+.checkbox01-input:checked + .checkbox01-parts::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 5px;
+  width: 6px;
+  height: 12px;
+  transform: rotate(40deg);
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.contact_input textarea {
+	width: 370px;
+	height: 70px;
+	border: 1.5px solid #c9c7c5;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 6px;
+}
+
+textarea[placeholder="Less than 500 characters"] {
+	font-family: 'Arial';
+}
+
+.contact_confirm {
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.contact_confirm label{
+	font-size: 14px;
+}
+
+.contact_confirm a {
+	color: black;
+}
+
+.confirm_contact input[type=submit]{
+	padding: 13px 100px;
+	margin-top: 20px;
+	background-color: #474645;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 20px;
+}
+
+.confirm_contact input:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/*.pop_up {
+	position: absolute;
+	bottom: 0;
+	z-index: -100;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.pop_up h2{
+	border: 10px solid black;
+	padding: 100px 100px;
+	color: black;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.confirm_contact input[type=submit]:focus + .pop_up{
+	z-index: 100;
+}*/
+
+
+/*---------------------*/
+.footer {
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	padding: 14px;
+}
+
+.footer p {
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
+
+
